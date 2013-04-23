@@ -1,0 +1,36 @@
+{
+  "name": "imgur-node-api",
+  "description": "Node implementation of the anonymous imgur api",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jamiees2/imgur-node-api",
+  "author": {
+    "name": "jamiees2",
+    "email": "jamiees2@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jamiees2/imgur-node-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jamiees2/imgur-node-api/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/jamiees2/imgur-node-api/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/imgur",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "keywords": [
+    "imgur",
+    "image",
+    "sharing",
+    "upload"
+  ],
+  "dependencies": {
+    "request": "~2.16.6"
+  }
+}

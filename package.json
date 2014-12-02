@@ -7,6 +7,10 @@
     "name": "jamiees2",
     "email": "jamiees2@gmail.com"
   },
+  "contributors": {
+    "name": "brutalhonesty",
+    "email": "sparky1010+github@gmail.com"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/jamiees2/imgur-node-api.git"
@@ -32,5 +36,17 @@
   ],
   "dependencies": {
     "request": "~2.16.6"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.7.2",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-watch": "~0.5.3",
+    "nock": "^0.51.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
   }
 }

@@ -1,7 +1,7 @@
 {
   "name": "imgur-node-api",
   "description": "Node implementation of the anonymous imgur api",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "homepage": "https://github.com/jamiees2/imgur-node-api",
   "author": {
     "name": "jamiees2",

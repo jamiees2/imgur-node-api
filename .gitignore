@@ -153,11 +153,19 @@ pip-log.txt
 .coverage
 .tox
 
-#Translations
+# Translations
 *.mo
 
-#Mr Developer
+# Mr Developer
 .mr.developer.cfg
 
 # Mac crap
 .DS_Store
+
+
+############
+## NodeJS
+############
+
+# Modules directory
+node_modules/
